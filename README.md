@@ -9,10 +9,12 @@ This repository contains two mini-applications accessible from a central home sc
 ### ✨ Features & Learning Outcomes
 
 * **Central Navigation Hub:** A unified home screen routing to different task modules.
+
 * **Counter App (State & Integer Storage):**
   * Manages UI state using `setState()`.
   * Increments and decrements a counter value.
   * Uses `SharedPreferences` to save the integer value and retrieve it automatically inside `initState()` upon app restart.
+  
 * **To-Do List App (Dynamic Lists & Array Storage):**
   * Takes user input via `TextFormField` and dynamically adds it to a task list.
   * Renders the list efficiently using `ListView.separated()`.
@@ -22,7 +24,6 @@ This repository contains two mini-applications accessible from a central home sc
 
 The codebase is organized to separate the navigation hub from the individual task screens cleanly:
 
-```text
 lib/
 │
 ├── main.dart                # App entry point and theme setup
