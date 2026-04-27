@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue.shade500,
         titleTextStyle: const TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
-        title: const Text("Week 2: Data Management"),
+        title: const Text("Data Management"),
       ),
       body: Center(
         child: Column(
